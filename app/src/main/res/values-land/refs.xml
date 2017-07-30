@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="fragment_capture_time_alias" type="layout">
+        @layout/fragment_capture_time_land
+    </item>
+    <item name="item_capture_time_alias" type="layout">
+        @layout/item_capture_time_land
+    </item>
+</resources>

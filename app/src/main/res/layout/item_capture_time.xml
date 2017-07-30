@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/item_spacing_vertical"
+    android:paddingLeft="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/item_spacing_vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/day_of_week_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="@dimen/item_spacing_horizontal"
+            android:layout_marginRight="@dimen/item_spacing_horizontal"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/date_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/day_of_week_text"
+            android:layout_marginLeft="@dimen/item_spacing_horizontal"
+            android:layout_marginRight="@dimen/item_spacing_horizontal" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal"
+            android:padding="@dimen/item_spacing_horizontal">
+
+            <ImageView
+                android:id="@+id/holiday_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/info_holiday"
+                app:srcCompat="@drawable/ic_beach_access_black_18dp" />
+
+            <ImageView
+                android:id="@+id/locked_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/info_locked"
+                app:srcCompat="@drawable/ic_lock_black_18dp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <Spinner
+        android:id="@+id/hours_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/item_spacing_horizontal"
+        android:entries="@array/capture_time_values" />
+</LinearLayout>

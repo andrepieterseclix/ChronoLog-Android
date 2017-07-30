@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">ChronoLog</string>
+    <string name="app_name_main_1">Chrono</string>
+    <string name="app_name_main_2">Log</string>
+
+    <!-- Service Messages -->
+    <string name="service_read_error_message">Could not read the server response.</string>
+    <string name="service_read_error_not_available">Could not retrieve the error message.</string>
+    <string name="service_no_error_body_message">The error body is null.</string>
+    <string name="server_session_expired_message">Session has expired, please log in again.</string>
+
+    <!-- Dialogs and common Actions -->
+    <string name="action_ok_dialog">OK</string>
+    <string name="action_cancel_dialog">Cancel</string>
+    <string name="action_close_dialog">Close</string>
+    <string name="action_save">Save</string>
+    <string name="action_reset">Reset</string>
+
+    <!-- Login Activity -->
+    <string name="action_log_in">Log in</string>
+    <string name="action_close">Close</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="status_logging_in">Logging in…</string>
+    <string name="user_id_hint">User ID</string>
+    <string name="password_hint">Password</string>
+    <string name="login_error">An error occurred while trying to log in.</string>
+    <string name="must_enter_id_error">You must enter a User Id.</string>
+    <string name="must_enter_password_error">You must enter a Password.</string>
+
+    <!-- Busy Fragment -->
+    <string name="status_please_wait">Please wait…</string>
+
+    <!-- Main Activity -->
+    <string name="action_logout">Logout</string>
+    <string name="action_user_profile">User Profile</string>
+    <string name="status_logging_out">Logging out…</string>
+    <string name="prompt_user_name">User Name:</string>
+    <string name="get_logged_time_error">An error occurred while trying to get the logged time.</string>
+    <string name="post_logged_time_error">An error occurred.</string>
+    <string name="notify_same_week_selected">Same week selected.</string>
+    <string name="info_post_logged_time">Saved successfully!</string>
+    <string-array name="capture_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+    </string-array>
+
+    <!-- Profile Activity -->
+    <string name="title_mod_profile_activity">Modify Profile</string>
+    <string name="prompt_name">Name:</string>
+    <string name="prompt_surname">Surname:</string>
+    <string name="prompt_email">E-mail:</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_surname">Surname</string>
+    <string name="hint_email_address">E-mail address</string>
+    <string name="error_service_update_user">Could not update the user.</string>
+    <string name="info_service_user_updated">User updated successfully.</string>
+    <string name="display_hours_total_format">Captured %d hours for the week.</string>
+    <string name="title_login_activity">Log In</string>
+    <string name="info_holiday">Holiday</string>
+    <string name="info_locked">Locked</string>
+
+</resources>
